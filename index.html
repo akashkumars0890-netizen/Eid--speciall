@@ -27,8 +27,7 @@ background:linear-gradient(135deg,#fff4f7,#fff7e8,#fff0f5);
 width:100vw;
 height:100vh;
 display:none;
-justify-content:center;
-align-items:center;
+justify-conalign-items:center;
 flex-direction:column;
 padding:20px;
 text-align:center;
@@ -43,97 +42,6 @@ display:flex;
 /* FLOATING ITEMS */
 
 .float{
-position:absolute;
-font-size:3rem;
-animation:float 5s infinite ease-in-out;
-opacity:0.8;
-z-index:1;
-}
-
-.moon{
-top:20px;
-left:20px;
-}
-
-.lantern1{
-top:70px;
-right:40px;
-}
-
-.lantern2{
-bottom:70px;
-left:40px;
-}
-
-@keyframes float{
-
-0%{
-transform:translateY(0);
-}
-
-50%{
-transform:translateY(-20px);
-}
-
-100%{
-transform:translateY(0);
-}
-
-}
-
-/* TEXT */
-
-h1{
-font-size:3rem;
-color:#ff4f8b;
-margin-bottom:20px;
-z-index:2;
-}
-
-h2{
-color:#ff4f8b;
-margin-top:20px;
-z-index:2;
-}
-
-/* BUTTON */
-
-button{
-padding:14px 28px;
-border:none;
-border-radius:40px;
-background:#ff4f8b;
-color:white;
-font-size:1rem;
-cursor:pointer;
-margin-top:20px;
-transition:0.3s;
-z-index:2;
-}
-
-button:hover{
-transform:scale(1.08);
-}
-
-/* INTRO */
-
-.main-title{
-font-size:3rem;
-z-index:2;
-margin-top:10px;
-}
-
-.intro-box{
-
-width:90%;
-max-width:850px;
-background:rgba(255,255,255,0.95);
-padding:25px;
-border-radius:25px;
-line-height:2;
-margin-bottom:30px;
-box-shadow:0 0 20px rgba(0,0,0,0.08);
-z-index:2;
 
 }
 
@@ -1222,35 +1130,4 @@ document.getElementById('cakeText').innerHTML=
 
 function submitReview(){
 
-let review=
-document.getElementById('reviewText').value;
-
-if(review.trim()===''){
-
-alert('✨ Please Write Review 💖');
-
-}else{
-
-document.getElementById('reviewMsg').innerHTML=
-'💖 Thank You For Your Beautiful Review ✨';
-
-}
-
-}
-
-function openPopup(){
-
-document.getElementById('popup').style.display='block';
-
-}
-
-function closePopup(){
-
-document.getElementById('popup').style.display='none';
-
-}
-
-</script>
-
-</body>
-  </html>
+let revirev
